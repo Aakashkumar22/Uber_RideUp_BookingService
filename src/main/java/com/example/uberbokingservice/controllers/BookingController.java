@@ -23,6 +23,7 @@ public class BookingController {
 
     @PostMapping
     public ResponseEntity<CreateBookingResponse>creatBooking(@RequestBody CreateBooking createBookingdto){
+        System.out.println(" inside controller");
         return new ResponseEntity<>(bookingService.creatBooking(createBookingdto), HttpStatus.CREATED);
 
     }
