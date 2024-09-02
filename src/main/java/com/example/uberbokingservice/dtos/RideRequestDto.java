@@ -12,8 +12,10 @@ import java.util.List;
 @AllArgsConstructor
 
 public class RideRequestDto {
+    private Long bookingID;
     private Long passengerID;
     private ExactLocation startLocation;
     private ExactLocation endLocation;
     private List<Long> driverIds;
+
 }

@@ -26,7 +26,7 @@ public class BookingController {
         return new ResponseEntity<>(bookingService.creatBooking(createBookingdto), HttpStatus.CREATED);
 
     }
-    @PatchMapping("/{bookingId}")
+    @PostMapping("/{bookingId}")
     public ResponseEntity<UpdateBookingdto>updateBooking(@RequestBody UpdateBookingRequestdto updateBookingRequestdto,@PathVariable Long bookingId){
         System.out.println(" inside  update Booking controller");
         return new ResponseEntity<>(bookingService.updateBooking(updateBookingRequestdto,bookingId), HttpStatus.OK);

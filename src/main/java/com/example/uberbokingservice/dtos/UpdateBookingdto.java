@@ -14,5 +14,5 @@ import java.util.Optional;
 public class UpdateBookingdto {
     private Long bookingId;
     private BookingStatus bookingStatus;
-    private Optional<Driver>driver;
+    //private Optional<Driver>driver;
 }

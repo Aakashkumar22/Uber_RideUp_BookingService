@@ -11,6 +11,6 @@ public interface UberSocketApi {
 
 
         @POST("/Socket/newride")
-        Call<Boolean> getNearbyDrivers(@Body RideRequestDto rideRequestDto);
+        Call<Boolean> raiseRideRequest(@Body RideRequestDto rideRequestDto);
 
 }
