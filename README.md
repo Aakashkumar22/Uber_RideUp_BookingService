@@ -1,5 +1,7 @@
 
-# 🚗💨 Uber_RideUp Project
+# 🚗💨 Uber_RideUp Project 
+<p align="center" > <img src=https://github.com/user-attachments/assets/c77ae5d3-890a-41c8-98d6-57972206e033/> </p>
+
 
 ## Microservices-Based Ride-Hailing Platform
 **Technologies**: **Spring Boot**, **Apache Kafka**, **WebSockets (STOMP)**, **Redis**, **Eureka**, **Flyway**, **MySQL**
