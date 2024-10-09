@@ -68,6 +68,7 @@
 - **Data Management & Reliability:** Achieved **99.9% uptime** and ensured zero data loss.
 - **Security & Compliance:** Improved security with **OAuth2** and **MFA**, reducing unauthorized access by **95%**.
 - **User Feedback & Improvement:** Collected **10,000+ reviews** monthly, achieving a **4.7-star rating**.
+- **Multithreading & Concurrency**: Ensured no **2** users book the same seat at the same time through efficient **multithreading**, preventing booking conflicts during high traffic.
 - **Cost Efficiency:** Optimized cloud resource usage, reducing costs and improving overall efficiency.
 
 ---
